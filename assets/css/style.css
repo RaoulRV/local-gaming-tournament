@@ -464,6 +464,18 @@ iframe{
 }
 
 @media (max-width: 550px) {
+#menu{
+  font-size: 85%;
+ letter-spacing: 2px;
+}
+#menu li {
+float: right;
+list-style-type: none;
+margin-right: 10px;
+}
+}
+
+@media (max-width: 550px) {
 #logo {
 font-size: 150%;
   }
