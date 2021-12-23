@@ -226,17 +226,15 @@ padding-bottom: 30px;
      margin-top: 15px;
      text-align: center;
      font-size: 13px;
-     color: #aaa;
+     color: rgb(0, 0, 0);
  }
  
  .footer .homebot{
      margin-top: 15px;
      text-align: left;
      font-size: 13px;
-     color: #aaa;    
+     color: rgb(0, 0, 0);    
  }
-
-
 
 
 
@@ -410,6 +408,13 @@ padding-bottom: 30px;
     margin-bottom: 0;
   }
   
+/* hr */
+hr{
+  border-top: 1px solid black;
+}
+#hrwhite{
+  border-top: 1px solid white
+}
   /* responsiveness */
   section {
     padding: 3rem 0;
