@@ -11,6 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     background-color: black;
+    line-height: 1.6;
+
 
 }
 
@@ -29,11 +31,14 @@ text-transform: uppercase;
 letter-spacing: 4px;
 margin-left: 30px;
 color: rgb(0, 0, 0);
-font-size: 190%;
+font-size: 185%;
 }
+
 p{
     padding-inline: 30px;
 }
+
+/* menu and logo */
 
 #menu, #logo{
     line-height: 75px;
@@ -75,6 +80,7 @@ border-bottom: solid ;
     border-bottom: 1px solid
 }
 
+/* hero image */
 #hero-outer{
     height: 600px;
     width: 100%;
@@ -86,9 +92,13 @@ border-bottom: solid ;
     background: url('../css/images/hero-image.jpg') no-repeat center center;
 }
 
+/* Dota section */
 #dotasec{
     padding-top: 30px;
     height: 600px;
+    background-color: black;
+    background-size: cover;
+    
 }
 
 #textdota{
@@ -97,7 +107,7 @@ border-bottom: solid ;
     float: left;
     color: white;
     letter-spacing: 2px;
-    line-height: 20px;
+  
 }
 
 #picdota {
@@ -105,9 +115,35 @@ border-bottom: solid ;
     width: 50%;
     float: right;
 }
+
+#dotasec h2{
+  text-align: center;
+  padding-bottom: 25px;
+  
+  }
+  #textdota ul{
+      float: left;
+      padding-top: 30px;
+      padding-left: 40px;
+      color: white;
+      letter-spacing: 2px;
+  
+  
+  }
+  #textdota h2{
+    padding-bottom: 30px;
+
+}
+#textdota a{
+  text-decoration: none; 
+ color: rgb(189, 12, 243)
+}
+
+/* csgo section */
 #csgosec{
     height: 600px;
     background-color: rgb(255, 255, 255);
+    background-size: cover;
 }
 
 #textcsgo{
@@ -116,111 +152,96 @@ border-bottom: solid ;
     float: right;
     color: black;
     letter-spacing: 2px;
-    line-height: 20px;
+  
 }
 
 #csgopic {
     padding-top: 30px;
     width: 50%;
     float: left;
-    
-}
-.footer{
- padding: 40px 0;
- background-color: white;   
-}
-.footer .social{
-text-align: center;
-padding-bottom: 25px;
-color: #4b4c4d;
-}
-.footer .social a{
-font-size: 24px;
-color: inherit;
-border: 1px solid #ccc;
-width: 40px;
-height: 40px;
-line-height: 38px;
-display: inline-block;
-text-align: center;
-border-radius: 50%;
-margin: 0 8px;
-opacity: 0.75;
-}
+   }
 
-.footer .social a:hover{
-    opacity: 1;
-}
 
-.footer .copyright{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-}
-
-#aboutsec{
-    text-align: center;
+#textcsgo ul{
+    float: left;
     padding-top: 30px;
-    color: white;
+    padding-left: 42px;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
-    line-height: 20px;    
+  
+
+}
+
+
+#textcsgo a{
+    text-decoration: none; 
+   color: rgb(189, 12, 243)
+}
+
+#textcsgo h3{
+    padding-bottom: 30px;
+}
+ /* about section */
+ #aboutsec{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  letter-spacing: 2px;
+ 
 }
 #aboutsec p{
 padding-top: 30px;
 padding-bottom: 30px;
 }
 
-
-#dotasec h2{
-text-align: center;
-padding-bottom: 25px;
-
-}
-#textdota ul{
-    float: left;
-    padding-top: 30px;
-    padding-left: 40px;
-    color: white;
-    letter-spacing: 2px;
-    line-height: 20px;  
-
-}
-
-#textcsgo ul{
-    float: right;
-    padding-top: 30px;
-    width: 92%;
-    color: rgb(0, 0, 0);
-    letter-spacing: 2px;
-    line-height: 20px;  
-
-}
-
-#textdota a{
-    text-decoration: none; 
-   color: rgb(189, 12, 243)
-}
-#textcsgo a{
-    text-decoration: none; 
-   color: rgb(189, 12, 243)
-}
-#textdota h2{
-    padding-bottom: 30px;
-
-}
-#textcsgo h3{
-    padding-bottom: 30px;
-}
-
-
+/* footer */
+.footer{
+  padding: 40px 0;
+  background-color: white;   
+ }
+ .footer .social{
+ text-align: center;
+ padding-bottom: 25px;
+ color: #4b4c4d;
+ }
+ .footer .social a{
+ font-size: 24px;
+ color: inherit;
+ border: 1px solid #ccc;
+ width: 40px;
+ height: 40px;
+ line-height: 38px;
+ display: inline-block;
+ text-align: center;
+ border-radius: 50%;
+ margin: 0 8px;
+ opacity: 0.75;
+ }
+ 
+ .footer .social a:hover{
+     opacity: 1;
+ }
+ 
+ .footer .copyright{
+     margin-top: 15px;
+     text-align: center;
+     font-size: 13px;
+     color: #aaa;
+ }
+ 
+ .footer .homebot{
+     margin-top: 15px;
+     text-align: left;
+     font-size: 13px;
+     color: #aaa;    
+ }
 
 
 
 
 
 
-
+/* sign-up form */
 
 #signup{
     background-color: white;
@@ -237,7 +258,7 @@ padding-bottom: 25px;
 }
 
 .wrapper{
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     background: #fff;
     margin: 20px auto;
@@ -265,7 +286,7 @@ padding-bottom: 25px;
   }
   
   .wrapper .form .inputfield label{
-     width: 200px;
+     width: 100%;
      color: rgb(0, 0, 0);
      margin-right: 10px;
     font-size: 14px;
@@ -389,6 +410,37 @@ padding-bottom: 25px;
     margin-bottom: 0;
   }
   
+  /* responsiveness */
+  section {
+    padding: 3rem 0;
+
+  }
+
+  .container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    max-height: 100%;
+  
+  }
+
+p {
+  margin-bottom: 1em;
+}
+img {
+display: block;
+max-width: 100%;
+}
+
+
+iframe{
+  max-width: 100%;
+}
+
+.split{
+  display: flex;
+}
+/*media queries*/
+
   @media (max-width:420px) {
     .wrapper .form .inputfield{
       flex-direction: column;
@@ -400,4 +452,72 @@ padding-bottom: 25px;
     .wrapper .form .inputfield.terms{
       flex-direction: row;
     }
+  }
+ @media (max-width: 1200px) {
+  #menu {
+  clear: left;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  }
+}
+
+@media (max-width: 550px) {
+#logo {
+font-size: 150%;
+  }
+  #menu{
+    float:none;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+h1, h2, h3{
+  font-size: 100%;
+}
+}
+
+@media (max-width: 1170px) {
+  #dotasec{
+  height: 800px;
+}  
+  #picdota{
+  width:30%
+}
+#textdota{
+  width: 70%;
+}
+
+#csgosec{
+  height: 600px;
+}
+#textcsgo{
+  width: 70%;
+}
+#csgopic{
+  width: 30%;
+}
+@media (max-width: 600px) {
+  #dotasec{
+  height: 1300px;
+}  
+  #picdota{
+  width:30%
+}
+#textdota{
+  width: 70%;
+}
+
+#csgosec{
+  height: 900px;
+}
+#textcsgo{
+  width: 70%;
+}
+#csgopic{
+  width: 30%;
+}
+}
 }
