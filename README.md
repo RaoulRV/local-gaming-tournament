@@ -7,4 +7,19 @@ Users of the website are able to read about the begginings of the Local Gaming L
 ![responsive](assets/css/images/responsive.PNG)
 
 
-## Features
+# Features
+
+
+**Header & Navigation**
+
+- At the top left of the page the navigation shows the name of the website : Local Gaming League this doubles as a "Home" button as it links to the top of the page. 
+
+- The navigation menu is located at the top right of the page, its made up of : Home, About, Tournaments and Sign Up. 
+
+- All these navigation buttons link down to their specific section on the same page. This makes the website very accessible and its clear for the user where to access different sections of the page.
+- The navigation uses a futuristic font which reminds people of old arcade videogames.
+- The image is related to the purpose of the website, which is gaming.
+- The website name color is a purple gradient which contrasts well with the background but also compliments the image which is also predominantly purple.
+- This section starts setting the tone for the rest of the page, already showing the main colors: Purple, White and Black.
+
+![headernavigation](assets/css/images/headernavi.PNG)
